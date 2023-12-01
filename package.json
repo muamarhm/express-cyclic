@@ -5,6 +5,7 @@
   "type": "commonjs",
   "scripts": {
     "start": "node -r dotenv/config index.js",
+    "dev": "nodemon -r dotenv/config index.js",
     "db:create": "sequelize db:create",
     "db:drop": "sequelize db:drop",
     "db:migrate": "sequelize db:migrate",
